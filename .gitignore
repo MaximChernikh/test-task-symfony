@@ -1,5 +1,6 @@
 
 ###> symfony/framework-bundle ###
+/.env
 /.env.local
 /.env.local.php
 /.env.*.local
@@ -18,3 +19,42 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+###> IDE and Editor files ###
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+###< IDE and Editor files ###
+
+###> OS generated files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+###< OS generated files ###
+
+###> Logs ###
+*.log
+/logs/
+###< Logs ###
+
+###> Cache and temporary files ###
+/cache/
+/tmp/
+*.tmp
+*.temp
+###< Cache and temporary files ###
+
+###> Database ###
+*.sqlite
+*.db
+###< Database ###
+
+###> Composer ###
+composer.phar
+###< Composer ###
